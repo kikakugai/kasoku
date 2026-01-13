@@ -1,0 +1,27 @@
+# ソースファイル（コンパイル済みのoutがある）
+src/
+
+# 開発用設定
+.vscode/
+.claude/
+tsconfig.json
+
+# Git関連
+.git/
+.gitignore
+
+# ビルド成果物・依存関係
+node_modules/
+*.vsix
+
+# ソースマップ（デバッグ用）
+out/**/*.map
+
+# 画像ソース（PNGがある）
+images/*.svg
+
+# システムファイル
+.DS_Store
+
+# npm関連
+package-lock.json

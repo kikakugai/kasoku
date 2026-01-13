@@ -1,0 +1,6 @@
+{
+  "extension.displayName": "Kasoku",
+  "extension.description": "Accelerate your development workflow with productivity-boosting features",
+  "command.copyRelativePathWithLine": "Copy Relative Path with Line Number",
+  "command.copyAbsolutePathWithLine": "Copy Absolute Path with Line Number"
+}

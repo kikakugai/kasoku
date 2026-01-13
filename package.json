@@ -1,0 +1,62 @@
+{
+  "name": "kasoku",
+  "displayName": "%extension.displayName%",
+  "description": "%extension.description%",
+  "version": "0.0.2",
+  "publisher": "kikakugai",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kikakugai/kasoku"
+  },
+  "icon": "images/icon.png",
+  "engines": {
+    "vscode": "^1.84.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "main": "./out/extension.js",
+  "l10n": "./l10n",
+  "contributes": {
+    "commands": [
+      {
+        "command": "copyPath.copyRelativePathWithLine",
+        "title": "%command.copyRelativePathWithLine%"
+      },
+      {
+        "command": "copyPath.copyAbsolutePathWithLine",
+        "title": "%command.copyAbsolutePathWithLine%"
+      }
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "command": "copyPath.copyRelativePathWithLine",
+          "group": "9_cutcopypaste",
+          "when": "editorFocus"
+        },
+        {
+          "command": "copyPath.copyAbsolutePathWithLine",
+          "group": "9_cutcopypaste",
+          "when": "editorFocus"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "node ./out/test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/node": "^20.x",
+    "@types/vscode": "^1.84.0",
+    "@typescript-eslint/eslint-plugin": "^6.x",
+    "@typescript-eslint/parser": "^6.x",
+    "eslint": "^8.x",
+    "typescript": "^5.x"
+  }
+}

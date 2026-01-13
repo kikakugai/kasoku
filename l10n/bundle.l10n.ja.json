@@ -1,0 +1,6 @@
+{
+  "No active editor": "アクティブなエディタがありません",
+  "Cannot copy path for unsaved file. Please save the file first.": "未保存のファイルのパスはコピーできません。先にファイルを保存してください。",
+  "Copied: {0}": "コピーしました: {0}",
+  "Failed to copy to clipboard: {0}": "クリップボードへのコピーに失敗しました: {0}"
+}

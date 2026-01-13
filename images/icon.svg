@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Background -->
+  <rect width="128" height="128" rx="16" fill="#2D5A9D"/>
+
+  <!-- Document/File icon -->
+  <rect x="28" y="20" width="52" height="68" rx="4" fill="#FFFFFF" opacity="0.9"/>
+  <rect x="28" y="20" width="52" height="16" rx="4" fill="#4A90D9"/>
+
+  <!-- Path text simulation -->
+  <rect x="34" y="44" width="40" height="4" rx="2" fill="#4A90D9"/>
+  <rect x="34" y="54" width="32" height="4" rx="2" fill="#6BA3E0"/>
+  <rect x="34" y="64" width="36" height="4" rx="2" fill="#6BA3E0"/>
+
+  <!-- Line number indicator -->
+  <circle cx="88" cy="78" r="24" fill="#F5A623"/>
+  <text x="88" y="85" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF" text-anchor="middle">42</text>
+
+  <!-- Copy indicator (small clipboard) -->
+  <rect x="72" y="28" width="28" height="32" rx="3" fill="#FFFFFF" stroke="#2D5A9D" stroke-width="2"/>
+  <rect x="78" y="24" width="16" height="8" rx="2" fill="#2D5A9D"/>
+  <rect x="78" y="38" width="16" height="3" rx="1" fill="#4A90D9"/>
+  <rect x="78" y="44" width="12" height="3" rx="1" fill="#6BA3E0"/>
+  <rect x="78" y="50" width="14" height="3" rx="1" fill="#6BA3E0"/>
+</svg>

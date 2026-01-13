@@ -1,0 +1,6 @@
+{
+  "extension.displayName": "Kasoku",
+  "extension.description": "開発ワークフローを加速させる、生産性向上機能を提供",
+  "command.copyRelativePathWithLine": "相対パスと行番号をコピー",
+  "command.copyAbsolutePathWithLine": "絶対パスと行番号をコピー"
+}
